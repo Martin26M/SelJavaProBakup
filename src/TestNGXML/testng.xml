@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SuiteTestng "  >
+  <test name="TestingTestng XML" >
+    <classes>
+       <class name="TestNG.AssertionsTest" /> To call all the classes in the package TestNG 
+      <class name="TestNG.Dependson"/>
+      <class name="TestNG.Invocatiocount"/>
+    </classes>
+    
+  </test>
+</suite>
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+

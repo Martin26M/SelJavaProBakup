@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="SelJava">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="14"/>
+    <property name="source" value="14"/>
+    <path id="SelJava.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Addingarrayelements.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Alternate.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.BreakContinue.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Dowhile.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Ex13.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Example.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.ExceptionHandling.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Factorial.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Fibonacci.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.FinallyBlock.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.ForEachloop.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.JavaPract1.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.MultiplicationPract.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.NewPratct1.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Palindrome.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.PrimeNumbers.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.SelTest1.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Splitword.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Switchcase.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Test (1).classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.Test.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.TwoDarrays.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <path id="run.UncaughtExceptiion.classpath">
+        <path refid="SelJava.classpath"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59.jar"/>
+        <pathelement location="../../Downloads/New2/client-combined-3.141.59-sources.jar"/>
+        <pathelement location="../../Downloads/New2/libs/byte-buddy-1.8.15.jar"/>
+        <pathelement location="../../Downloads/New2/libs/commons-exec-1.3.jar"/>
+        <pathelement location="../../Downloads/New2/libs/guava-25.0-jre.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okhttp-3.11.0.jar"/>
+        <pathelement location="../../Downloads/New2/libs/okio-1.14.0.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="SelJava.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Addingarrayelements">
+        <java classname="Addingarrayelements" failonerror="true" fork="yes">
+            <classpath refid="run.Addingarrayelements.classpath"/>
+        </java>
+    </target>
+    <target name="Alternate">
+        <java classname="Alternate" failonerror="true" fork="yes">
+            <classpath refid="run.Alternate.classpath"/>
+        </java>
+    </target>
+    <target name="BreakContinue">
+        <java classname="BreakContinue" failonerror="true" fork="yes">
+            <classpath refid="run.BreakContinue.classpath"/>
+        </java>
+    </target>
+    <target name="Dowhile">
+        <java classname="Dowhile" failonerror="true" fork="yes">
+            <classpath refid="run.Dowhile.classpath"/>
+        </java>
+    </target>
+    <target name="Ex13">
+        <java classname="RahulShetty.Ex13" failonerror="true" fork="yes">
+            <classpath refid="run.Ex13.classpath"/>
+        </java>
+    </target>
+    <target name="Example">
+        <java classname="Example" failonerror="true" fork="yes">
+            <classpath refid="run.Example.classpath"/>
+        </java>
+    </target>
+    <target name="ExceptionHandling">
+        <java classname="ExceptionHandling" failonerror="true" fork="yes">
+            <classpath refid="run.ExceptionHandling.classpath"/>
+        </java>
+    </target>
+    <target name="Factorial">
+        <java classname="Factorial" failonerror="true" fork="yes">
+            <classpath refid="run.Factorial.classpath"/>
+        </java>
+    </target>
+    <target name="Fibonacci">
+        <java classname="Fibonacci" failonerror="true" fork="yes">
+            <classpath refid="run.Fibonacci.classpath"/>
+        </java>
+    </target>
+    <target name="FinallyBlock">
+        <java classname="FinallyBlock" failonerror="true" fork="yes">
+            <classpath refid="run.FinallyBlock.classpath"/>
+        </java>
+    </target>
+    <target name="ForEachloop">
+        <java classname="ForEachloop" failonerror="true" fork="yes">
+            <classpath refid="run.ForEachloop.classpath"/>
+        </java>
+    </target>
+    <target name="JavaPract1">
+        <java classname="JavaPract1" failonerror="true" fork="yes">
+            <classpath refid="run.JavaPract1.classpath"/>
+        </java>
+    </target>
+    <target name="MultiplicationPract">
+        <java classname="MultiplicationPract" failonerror="true" fork="yes">
+            <classpath refid="run.MultiplicationPract.classpath"/>
+        </java>
+    </target>
+    <target name="NewPratct1">
+        <java classname="NewPratct1" failonerror="true" fork="yes">
+            <classpath refid="run.NewPratct1.classpath"/>
+        </java>
+    </target>
+    <target name="Palindrome">
+        <java classname="Palindrome" failonerror="true" fork="yes">
+            <classpath refid="run.Palindrome.classpath"/>
+        </java>
+    </target>
+    <target name="PrimeNumbers">
+        <java classname="PrimeNumbers" failonerror="true" fork="yes">
+            <classpath refid="run.PrimeNumbers.classpath"/>
+        </java>
+    </target>
+    <target name="SelTest1">
+        <java classname="SelTest1" failonerror="true" fork="yes">
+            <classpath refid="run.SelTest1.classpath"/>
+        </java>
+    </target>
+    <target name="Splitword">
+        <java classname="Splitword" failonerror="true" fork="yes">
+            <classpath refid="run.Splitword.classpath"/>
+        </java>
+    </target>
+    <target name="Switchcase">
+        <java classname="Switchcase" failonerror="true" fork="yes">
+            <classpath refid="run.Switchcase.classpath"/>
+        </java>
+    </target>
+    <target name="Test (1)">
+        <java classname="RahulShetty.Test" failonerror="true" fork="yes">
+            <classpath refid="run.Test (1).classpath"/>
+        </java>
+    </target>
+    <target name="Test">
+        <java classname="Test" failonerror="true" fork="yes">
+            <classpath refid="run.Test.classpath"/>
+        </java>
+    </target>
+    <target name="TwoDarrays">
+        <java classname="TwoDarrays" failonerror="true" fork="yes">
+            <classpath refid="run.TwoDarrays.classpath"/>
+        </java>
+    </target>
+    <target name="UncaughtExceptiion">
+        <java classname="UncaughtExceptiion" failonerror="true" fork="yes">
+            <classpath refid="run.UncaughtExceptiion.classpath"/>
+        </java>
+    </target>
+</project>

@@ -1,0 +1,30 @@
+ 
+<suite name="SuiteTestng11 "  parallel ="tests" thread-count="2" >// Here we have given parallel tests which shows to run multiple tests at a time 
+// here test count =2 
+
+  
+<listeners>
+<listener class-name="TestNG.listners"> </listener>
+
+</listeners>
+  <test name ="TestNG">
+  <parameter name="url" value="url"/>
+   <parameter name="username" value="put the  name "/>
+    <classes>
+       <class name="TestNG.Dependson" />
+       <methods>
+       
+       <exclude name =""/>// If we want to exclude any method here
+        <include name =""/>//If we want to include  any method here
+       </methods>
+    </classes>
+      </test>
+      
+      
+     <test name ="TestNGw">// Here both these 2 tests would be run parallely as we have given the parrallel tag above , please check
+    <classes>
+       <class name="TestNG.Dependson" />
+       
+    </classes>
+  </test>
+</suite>
